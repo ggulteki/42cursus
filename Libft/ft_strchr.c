@@ -26,3 +26,12 @@ char	*ft_strchr(const char *s, int c)
 		return (NULL);
 	return (0);
 }
+/*
+int	main(void)
+{
+  char  deneme00[] = "deneme123";
+  char  find = 'e';
+
+  printf("%s\n", ft_strchr(deneme00, find));
+}
+*/

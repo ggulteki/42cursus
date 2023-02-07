@@ -32,3 +32,12 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (NULL);
 }
+/*
+int main(void)
+{
+	char	s1[] = "denemeDenemedEnEmE";
+	char	s2[] = "Deneme";
+
+	printf("%s\n", ft_strnstr(s1, s2, 18));
+}
+*/

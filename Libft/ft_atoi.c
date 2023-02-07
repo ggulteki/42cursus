@@ -34,3 +34,11 @@ int	ft_atoi(const char *str)
 		rslt = (rslt * 10) + (str[i++] - '0');
 	return (rslt * sign);
 }
+/*
+int main(void)
+{
+	char	s1[] = "12345";
+
+	printf("%d\n", ft_atoi(s1));
+}
+*/

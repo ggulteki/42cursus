@@ -38,3 +38,15 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (dst);
 }
+/*
+int main(void)
+{
+  char  deneme00[] = "deneme123";
+  char  deneme01[] = "DENEME123";
+
+
+  ft_memmove(deneme00, deneme01, 6);
+
+  puts(deneme00);
+}
+*/

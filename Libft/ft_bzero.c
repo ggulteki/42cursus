@@ -24,3 +24,11 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
+/*
+int main(void)
+{
+  char s[] = "deneme";
+
+  ft_bzero(s, 3);
+}
+*/

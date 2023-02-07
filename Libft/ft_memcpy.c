@@ -30,3 +30,15 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
+/*
+int main(void)
+{
+  char  deneme00[] = "deneme123";
+  char  deneme01[] = "DENEME123";
+
+
+  ft_memcpy(deneme00, deneme01, 6);
+
+  puts(deneme00);
+}
+*/

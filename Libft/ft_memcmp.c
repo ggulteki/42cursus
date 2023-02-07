@@ -36,3 +36,12 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (*(unsigned char *)j1 - *(unsigned char *)j2);
 }
+/*
+int main(void)
+{
+  char  s1[] = "deneme";
+  char  s2[] = "Deneme";
+
+  printf("%d\n", ft_memcmp(s1, s2, 6));
+}
+*/
