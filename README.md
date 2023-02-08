@@ -10,4 +10,5 @@ The 42 program takes a project-based approach to progress and is designed to dev
 More details at..
 
 https://42.fr/en/homepage/
+
 https://en.wikipedia.org/wiki/42_(school)
