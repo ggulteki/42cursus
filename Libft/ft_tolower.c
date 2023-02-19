@@ -23,3 +23,20 @@ int	ft_tolower(int c)
 		return (c);
 	}
 }
+/*
+int main(void)
+{
+	char	s1[] = "GOKBERK";
+	size_t  i = 0;
+
+	printf("before: %s\n", s1);
+
+	while(s1[i] != '\0')
+	{
+		s1[i] = (char)ft_tolower((int)s1[i]);
+		i++;
+	}
+
+	printf("after: %s\n", s1);
+}
+*/

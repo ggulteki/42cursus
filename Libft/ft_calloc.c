@@ -22,3 +22,16 @@ void	*ft_calloc(size_t count, size_t size)
 	ft_bzero(ptr, count * size);
 	return (ptr);
 }
+/*
+int	main(void)
+{
+	char	*dst;
+	char	*src;
+
+	dst = (char *)ft_calloc(8, 1);
+	src = "gokberk";
+
+	ft_memcpy(dst, src, 7);
+    printf("%s\n", dst);
+}
+*/

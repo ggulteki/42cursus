@@ -31,3 +31,13 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	dst[i + j] = '\0';
 	return (i + ft_strlen(src));
 }
+/*
+int main(void)
+{
+	char	s1[] = "gokberk";
+	char	s2[] = "gultekin";
+
+	ft_strlcat(s1, s2, 16);
+	puts(s1);
+}
+*/

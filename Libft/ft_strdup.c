@@ -25,3 +25,12 @@ char	*ft_strdup(const char *s1)
 		return (NULL);
 	return (ft_memcpy(ptr, s1, (s1_len + 1)));
 }
+/*
+int	main(void)
+{
+	char	*s1;
+
+	s1 = "gokberk";
+	printf("%s\n", ft_strdup(s1));
+}
+*/
